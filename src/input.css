@@ -10,3 +10,7 @@
     @apply px-4;
   }
 }
+
+.btn-primary {
+  @apply outline-none border-purple-500 border rounded-full h-9 w-9 flex justify-center items-center text-purple-500 hover:text-purple-600;
+}
