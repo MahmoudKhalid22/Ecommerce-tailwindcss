@@ -77,15 +77,7 @@ hr {
   border-top-width: 1px;
   /* 3 */
 }
-.myAccount:hover .myListMyAccount {
-  visibility: visible;
-  /* display: block; */
-}
-.myListMyAccount {
-  visibility: hidden;
-  /* display: none; */
-  right: -1.5rem;
-}
+
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
 */

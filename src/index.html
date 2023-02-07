@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="input.css" />
+    <title>Home</title>
   </head>
   <body class="bg-gray-200">
     <header class="flex justify-between bg-slate-800 text-white">
@@ -12,7 +14,7 @@
       </div>
       <!-- Mobile -->
       <div
-        class="block fixed top-0 left-0 bg-slate-900 shadow-2xl transition-all h-full w-[13.75rem] lg:hidden"
+        class="mobile block fixed z-20 top-0 -left-20 bg-slate-900 shadow-2xl transition-all h-full w-[13.75rem] lg:hidden"
       >
         <ul>
           <li class="">
@@ -78,9 +80,8 @@
             >
           </li>
           <li>
-            <a
-              href="./account.html"
-              class="py-2 px-4 flex items-center hover:bg-slate-700 transition-colors relative"
+            <a href="#"
+              class="py-2 px-4 flex items-center cursor-pointer hover:bg-slate-700 transition-colors relative"
             >
               My Account
               <svg
@@ -97,7 +98,6 @@
                   d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                 />
               </svg>
-            </a>
             <ul class="bg-slate-800">
               <li>
                 <a
@@ -307,9 +307,8 @@
             >
           </li>
           <li class="myAccount relative">
-            <a
-              href="./account.html"
-              class="myAccount py-5 px-4 flex items-center hover:bg-slate-700 transition-colors"
+            <a href="#"
+              class="myAccount cursor-pointer py-5 px-4 flex items-center hover:bg-slate-700 transition-colors"
             >
               My Account
               <svg
@@ -437,7 +436,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"
+                  d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75"
                 />
               </svg>
 
@@ -1481,5 +1480,7 @@
         </div>
       </div>
     </div>
+        <script src="script.js"></script>
+
   </body>
 </html>

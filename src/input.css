@@ -10,7 +10,19 @@
     @apply px-4;
   }
 }
-
 .btn-primary {
-  @apply outline-none border-purple-500 border rounded-full h-9 w-9 flex justify-center items-center text-purple-500 hover:text-purple-600;
+  @apply outline-none transition-colors border-purple-500 border flex justify-center items-center bg-purple-500 hover:bg-purple-600 text-white rounded py-1 px-2;
+}
+
+.myAccount:hover .myListMyAccount {
+  visibility: visible;
+  /* display: block; */
+}
+.myListMyAccount {
+  visibility: hidden;
+  /* display: none; */
+  right: -1.5rem;
+}
+.mobile {
+  left: -220px;
 }
